@@ -75,9 +75,21 @@ h1{
     text-align: center;
 }
 
+.footer {
+    background-color: #f8bc63;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer p {
-    display: inline-block;  /* Ensures the text is centered along with the "@" symbol */
-    margin: 0;  /* Removes default margin for better alignment */
+    margin: 0; /* Remove default margin for better alignment */
 }
 
 .imgTextOverlay{
@@ -152,6 +164,7 @@ h1{
 }
 
 .container{
+    display: inline-block;
     position: relative;
     width: 50%;
 
@@ -159,6 +172,8 @@ h1{
 
 .image{
     display:block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     height: auto;
 }
@@ -173,7 +188,7 @@ h1{
     width: 100%;
     opacity: 0%;
     transition: .5s ease;
-    background-color: #f8bc63;
+    background-color: #ffa41a;
 
 }
 
@@ -190,4 +205,8 @@ left:50%;
 transform: translate(-50%,-50%);
 -ms-transform:translate(-50%,-50%);
 
+}
+
+section {
+    text-align: center;
 }
